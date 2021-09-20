@@ -1,0 +1,396 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Global CSS */
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+}
+
+.col-12{
+    width: 100%;
+    float: left;
+}
+/* Global CSS */
+
+
+.header{
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    float: left;
+}
+.menu{
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+.menu li{
+    margin: 10px 5px;
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu li a{
+    
+    color: #0B2253;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color:#007ACC;
+    cursor: pointer;
+}
+.online-section{
+    float: left;
+    width: 100%;
+    
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.online-section h1{
+    color: #0F2656;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+
+}
+.online-section h1 span{
+    color: #018AFF;
+}
+
+.online-section p{
+    color: #0F2656;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.sucess-section{
+    margin: 20px 0px;
+}
+.sucess-section h1{
+    text-align: right;
+    color: #F26674;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+.sucess-section h2{
+    margin-left: 20px;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #0F2656;
+    
+    font-weight: bold !important;
+    
+}
+.sucess-section p{
+    text-align: right;
+    
+}
+
+.feature-section{
+    width: 100%;
+    float: left;
+    padding: 40px 0px;
+}
+.inner-feature{
+    float: left;
+    width: 85%;
+    padding: 20px 15px;
+    
+    margin: 20px;
+
+}
+.inner-feature img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+
+}
+
+ .inner-feature h1{
+    margin-bottom: 10px;
+} 
+
+.inner-feature p{
+    font-size:14px;
+    line-height: 24px;
+    font-weight: 400px;
+    color: #002E6B;
+    margin-bottom: 10px;
+
+
+}
+
+.card-one{
+    background-color: #FDEBED;
+}
+
+.card-two{
+    background-color: #EBF9F4;
+}
+
+.card-three{
+    background-color: #FFF7E8;
+}
+
+
+
+.footer-section {
+    width: 100%;
+    background-color: #008AFF;
+    padding: 20px 0px;
+    float: left;
+    text-align: center;
+}
+
+.footer-section p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #90CFFF;
+
+}
+.footer-section a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    letter-spacing:3px ;
+    text-decoration: none;
+}
+
+/* CSS media Quary */
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 360px) and (max-width: 480px) {
+    
+     body {
+        font-family: 'Poppins', sans-serif;
+        font-size: 9px;
+        line-height: 10px;
+        margin: 0px auto;
+    } 
+
+    .header {
+        width: 100%;
+        padding: 2px;
+        border-bottom: 1px solid #eee;
+        float: left;
+        margin-top: 1px;
+    }
+    .col-6 {
+        width: 36%;
+        float: left;
+    }
+    
+    .container{
+        width:330px;
+        margin: 0px auto;
+        
+    }
+    .container .logo{
+        width: 40px;
+    }
+
+    .menu {
+        width: 300px;
+        float: left;
+        text-align: left;
+        margin-right: 21px;
+    }
+    .menu li{
+        margin: 10px 5px;
+        list-style: none;
+        display: inline-block;
+        text-decoration: none;
+    }
+    
+    .menu li a {
+        color: #0B2253;
+        font-size: 10px;
+        font-weight: 200;
+        text-decoration: none;
+        margin-right: 0px;
+    }
+    
+    .menu li a:hover{
+        color:#007ACC;
+        cursor: pointer;
+    }
+
+    .online-section {
+        float: left;
+        width: 100%;
+        padding: 15px 0px;
+        text-align: center;
+    }
+    
+    
+    
+    
+    .online-section h1 {
+        color: #0F2656;
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 400;
+        padding-bottom: 4px;
+        margin-left: 45px;
+    }
+    .online-section p {
+        color: #0F2656;
+        font-size: 9px;
+        line-height: 15px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        margin-left: 40px;
+    }
+
+    .online-section img{
+        width: 350px;
+        height: 200px;
+    }
+    .sucess-section h2 {
+        margin-left: 20px;
+        font-size: 25px;
+        margin-bottom: 0px;
+        color: #0F2656;
+        line-height: 1;
+        font-weight: bold !important;
+    }
+    .feature-section {
+        width: 100%;
+        float: left;
+        padding: 5px 0px;
+    }
+    .inner-feature {
+        float: left;
+        width: 85%;
+        padding: 20px 15px;
+        margin: 0px;
+    }
+    .inner-feature img {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .inner-feature h1{
+        font-size: 10px;
+    }
+    .inner-feature p {
+        font-size: 8px;
+        line-height: 12px;
+        font-weight: 400px;
+        color: #002E6B;
+    }
+    .footer-section {
+        width: 100%;
+        background-color: #008AFF;
+        padding: 10px 0px;
+        float: left;
+        text-align: center;
+    }
+    
+    .footer-section p{
+        font-size: 8px;
+        font-weight: 400;
+        color: #90CFFF;
+    
+    }
+    .footer-section a{
+        text-transform: uppercase;
+        color: white;
+        font-weight: 700;
+        letter-spacing:3px ;
+        text-decoration: none;
+    }
+
+  }
